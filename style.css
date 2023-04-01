@@ -19,6 +19,14 @@
     margin-top: 140px;  
 }
 
+.align-top {
+    vertical-align: top;
+}
+
+.ml-110 {
+    margin-left: 110px;
+}
+
 .ml-175 {
     margin-left: 175px;
 }
@@ -27,6 +35,10 @@
 .mt-45 {
     margin-top: 45px;
 }
+.ml-50 {
+    margin-left: 50px;
+}
+
 .ml-33 {
     margin-left: 33px;
 }
@@ -43,8 +55,15 @@
     margin-left: 300px;
 }
 
+.margin-auto {
+    margin: 110px 425px;
+}
+
 .pt-50 {
     padding-top: 50px;
+}
+.padding-centre {
+    padding: 121px auto;
 }
 
 .pl-20 {
@@ -63,11 +82,28 @@
     margin-top: 90px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+.color-dark-grey {
+    color: #969AA0;
+}
+
+.color-grey {
+    color: #B4C7E7;
+}
+.color-blue {
+    color:#1B3764
+}
+
+.color-white {
+    color:white;
+}
+
 .order-button {
     width: 180px;
     height: 50px;
-    margin-left: 50px;
-    font-style:'Cardo', serif;
+    font-family:'Cardo', serif;
     font-size: 19px;
     font-weight: 700;
     line-height: 24px;
@@ -80,7 +116,7 @@
 table {
     width: 550px;
     height: 21px;
-    font-style:'Inter', sans-serif ;
+    font-family:'Inter', sans-serif ;
     font-size: 17px;
     font-weight: 500;
     color: white;
@@ -92,27 +128,39 @@ table {
     font-family: 'Cardo', serif;
     font-size: 50px;
     font-weight: 700;
-    color: white;
     line-height: 55px;
 }
 
 .paragraph-text {
-    font-style:'Inter', sans-serif ;
+    font-family:'Inter', sans-serif ;
     font-weight: 400;
     font-size: 19px;
     line-height: 34px;
-    color: #B4C7E7;
-    
-
-
 }
 
 .book-info-box {
-    width: 519px;
-    height: 350px;
     margin-left: 300px;
     background-color:white;
+    padding: 45px 66px;
+    display: inline-block;
+    border: 2px solid #DFE9F8;
 
+}
+
+.book-info {
+    font-family: 'Cardo', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 52px;
+    color:  #1B3764;
+}
+
+.book-info-light {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+    line-height: 52px;
 }
 
 .white-background {
@@ -136,7 +184,7 @@ table {
 
 .white-words{
     color:white;
-    font-style: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
 }
